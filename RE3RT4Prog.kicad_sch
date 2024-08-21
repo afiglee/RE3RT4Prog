@@ -6133,6 +6133,12 @@
 		(uuid "c0c25986-c2c0-4479-a3e3-79411167c011")
 	)
 	(junction
+		(at 227.33 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4866f21-9d7f-41ef-972e-6a35ce493bd3")
+	)
+	(junction
 		(at 189.23 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6344,6 +6350,15 @@
 			(type default)
 		)
 		(uuid "1db542e7-bc6b-46bc-ad69-41b94b34b9b4")
+	)
+	(bus_entry
+		(at 224.79 18.415)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c0879c-8e9d-40cf-af3b-81dc215f40f1")
 	)
 	(bus_entry
 		(at 209.55 40.64)
@@ -7050,6 +7065,16 @@
 	)
 	(bus
 		(pts
+			(xy 224.79 18.415) (xy 280.035 18.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02185faf-e7c8-4e03-9905-17f7bce2a041")
+	)
+	(bus
+		(pts
 			(xy 59.69 18.415) (xy 88.265 18.415)
 		)
 		(stroke
@@ -7750,6 +7775,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 45.72) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca7cf60-676b-4f17-b220-642b6c446b96")
+	)
+	(wire
+		(pts
 			(xy 168.91 159.385) (xy 168.91 167.64)
 		)
 		(stroke
@@ -7947,6 +7982,16 @@
 			(type default)
 		)
 		(uuid "506e7909-935d-4c07-b73c-f77c3d4ef191")
+	)
+	(wire
+		(pts
+			(xy 227.33 39.37) (xy 227.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e138ba-c5e6-4757-b086-4dae0f86f572")
 	)
 	(bus
 		(pts
@@ -8307,6 +8352,16 @@
 			(type default)
 		)
 		(uuid "752c84b5-70f1-4cc6-a03d-74acc34cd73d")
+	)
+	(wire
+		(pts
+			(xy 227.33 20.955) (xy 227.33 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75fff61d-d1d3-4221-b495-548210d199ab")
 	)
 	(wire
 		(pts
@@ -9150,7 +9205,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 45.72) (xy 220.345 45.72)
+			(xy 217.805 45.72) (xy 227.33 45.72)
 		)
 		(stroke
 			(width 0)
@@ -10180,7 +10235,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 18.415) (xy 280.035 18.415)
+			(xy 212.09 18.415) (xy 224.79 18.415)
 		)
 		(stroke
 			(width 0)
@@ -10465,6 +10520,17 @@
 			(justify left bottom)
 		)
 		(uuid "38c354eb-e338-4d3d-b1dd-0c7268ac2927")
+	)
+	(label "DD"
+		(at 227.33 20.955 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b8b37ce-34a8-4be9-9b32-5682ff4157b4")
 	)
 	(label "A2"
 		(at 107.95 43.18 0)
@@ -14941,6 +15007,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 227.33 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84b9f98b-647d-433f-83c7-4b179e1a87d1")
+		(property "Reference" "D7"
+			(at 229.87 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 229.87 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 227.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 227.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 227.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 227.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 227.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ff30bee-3c88-463a-9ef7-f94e9f7e2825")
+		)
+		(pin "2"
+			(uuid "91cafec8-bb52-4dbb-b5ee-cb1c7ed739fd")
+		)
+		(instances
+			(project ""
+				(path "/d162d97a-69b3-496a-a822-43acfab3a7ae"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 230.505 89.535 0)
 		(unit 1)
@@ -15985,7 +16139,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 220.345 45.72 270)
+		(at 233.68 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15994,7 +16148,7 @@
 		(fields_autoplaced yes)
 		(uuid "a92238a8-0aa3-4f98-8fc5-f4e1c5c3a2ee")
 		(property "Reference" "#PWR017"
-			(at 216.535 45.72 0)
+			(at 229.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16003,7 +16157,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 224.155 45.72 90)
+			(at 237.49 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16012,7 +16166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.345 45.72 0)
+			(at 233.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16021,7 +16175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.345 45.72 0)
+			(at 233.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16030,7 +16184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.345 45.72 0)
+			(at 233.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16821,6 +16975,76 @@
 			(project "RE3RT4Prog"
 				(path "/d162d97a-69b3-496a-a822-43acfab3a7ae"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 227.33 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b53ce714-0950-4775-bd1b-e4ae37c2243e")
+		(property "Reference" "R22"
+			(at 229.87 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 229.87 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 225.552 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a39d240c-dccf-4fae-836a-73d520bd7f80")
+		)
+		(pin "1"
+			(uuid "073f181e-9309-4c86-9af1-c6d5ae337958")
+		)
+		(instances
+			(project ""
+				(path "/d162d97a-69b3-496a-a822-43acfab3a7ae"
+					(reference "R22")
 					(unit 1)
 				)
 			)
